@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T05:50:45.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" version="21.7.2" etag="9zeQMts9MLTJUIlOZS8P" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T06:01:20.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="E12l6qUE1sRhqyQQLlsb" version="21.7.2" type="github">
   <diagram name="第 1 页" id="kiKUXEnmh9wWD0_AAEvg">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qMXyqMAS4R4o8oFc5nUN-6" value="线程一" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qMXyqMAS4R4o8oFc5nUN-7" value="线程二" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qMXyqMAS4R4o8oFc5nUN-8" value="线程三" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qMXyqMAS4R4o8oFc5nUN-9" value="&lt;div&gt;线程共享全局变量/&lt;/div&gt;&lt;div&gt;静态变量&lt;/div&gt;&lt;div&gt;data = 0&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;dashed=1;dashPattern=1 4;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
