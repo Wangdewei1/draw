@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T08:37:41.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="BNAa7riO5qpH_tm1PjeF" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-10T08:46:40.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="Y4eOKvcTTIgEQ4MFi_xo" version="21.7.2" type="github">
   <diagram name="第 1 页" id="m20d3yRqj2rEdwWs52Zw">
-    <mxGraphModel dx="470" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="470" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="230" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SI9y_5N5KK7AquBP0M-R-8" value="HashMap&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="50" y="90" width="100" height="30" as="geometry" />
+          <mxGeometry x="42" y="-50" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SI9y_5N5KK7AquBP0M-R-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -51,6 +51,27 @@
         </mxCell>
         <mxCell id="SI9y_5N5KK7AquBP0M-R-26" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="209" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9y_5N5KK7AquBP0M-R-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-260" width="20" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9y_5N5KK7AquBP0M-R-29" value="扩容 hash &amp;amp; （%） &amp;lt;&amp;lt; 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9y_5N5KK7AquBP0M-R-30" value="初始容量 16" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9y_5N5KK7AquBP0M-R-31" value="key,value,Node[]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="-170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9y_5N5KK7AquBP0M-R-32" value="初始容量 16" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="199" y="-58" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9y_5N5KK7AquBP0M-R-33" value="单线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-152" width="84" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9y_5N5KK7AquBP0M-R-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-189" width="20" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
